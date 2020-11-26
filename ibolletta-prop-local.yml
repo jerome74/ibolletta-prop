@@ -1,0 +1,22 @@
+#--------------------------- project-------------------------------------------#
+project:
+    signin: /api-rest/signin
+    confirm: /api-rest/confirm
+    useradmin: walter.longo74@gmail.
+    avatar: admin
+    color: '[0.5, 0.5, 0.5, 1]'
+    from: utubed.service@gmail.com
+#--------------------------- main ---------------------------------------------#
+mail:
+  subject: utubed confirm email for 
+  text1: Hello 
+  text2: \!!,\n\n\nConfirm your email address and get started!
+  text3: \n\nWe need you to confirm your email address, by click on\n\n\n
+  text4: https://utubed-1601218389825.azurewebsites.net/api/utubed/confirm/
+  ok: \n\ne-mail was confirm!
+#--------------------------- permission ---------------------------------------#
+permission:
+  authorities:
+    admin: '[{\"name\":\"ADMIN\",\"actions\":{\"read\":\"admin:read\",\"write\":\"admin:write\",\"delete\":\"admin:delete\"}}]'
+    guest: '[{\"name\":\"GUEST\",\"actions\":{\"read\":\"guest:read\",\"write\":\"\",\"delete\":\"\"}}]'
+    access: ADMIN,GUEST
