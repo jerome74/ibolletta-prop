@@ -2,7 +2,6 @@
 project:
     signin: /api-rest/signin
     confirm: /api-rest/confirm
-    useradmin: walter.longo74@gmail.
     avatar: admin
     color: '[0.5, 0.5, 0.5, 1]'
     from: utubed.service@gmail.com
@@ -17,6 +16,11 @@ mail:
 #--------------------------- permission ---------------------------------------#
 permission:
   authorities:
+    useradmin: walter.longo74@gmail.
     admin: '[{\"name\":\"ADMIN\",\"actions\":{\"read\":\"admin:read\",\"write\":\"admin:write\",\"delete\":\"admin:delete\"}}]'
     guest: '[{\"name\":\"GUEST\",\"actions\":{\"read\":\"guest:read\",\"write\":\"\",\"delete\":\"\"}}]'
     access: ADMIN,GUEST
+#--------------------------- authentication -----------------------------------#
+authentication:
+  authsecretid: pneumonoultramicroscopicsilicovolcanoconiosis
+  expireTime: 30
