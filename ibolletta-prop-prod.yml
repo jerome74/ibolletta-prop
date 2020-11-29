@@ -16,7 +16,7 @@ mail:
 #--------------------------- permission ---------------------------------------#
 permission:
   authorities:
-    useradmin: walter.longo74@gmail.
+    useradmin: walter.longo74@gmail.com
     admin: '[{\"name\":\"ADMIN\",\"actions\":{\"read\":\"admin:read\",\"write\":\"admin:write\",\"delete\":\"admin:delete\"}}]'
     user: '[{\"name\":\"USER\",\"actions\":{\"read\":\"user:read\",\"write\":\"\",\"delete\":\"\"}}]'
     access: ADMIN,USER
