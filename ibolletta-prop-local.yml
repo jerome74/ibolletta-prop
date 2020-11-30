@@ -2,6 +2,7 @@
 project:
     signin: /api-rest/signin
     confirm: /api-rest/confirm
+    h2: /h2-console
     avatar: admin
     color: '[0.5, 0.5, 0.5, 1]'
     from: utubed.service@gmail.com
