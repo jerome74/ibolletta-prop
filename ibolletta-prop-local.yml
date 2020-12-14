@@ -7,7 +7,7 @@ project:
     color: '[0.5, 0.5, 0.5, 1]'
     from: utubed.service@gmail.com
     apidoc: /api-docs
-    swaggerui: /swagger-ui.html
+    swaggerui: /swagger-ui
 #--------------------------- main ---------------------------------------------#
 mail:
   subject: utubed confirm email for 
